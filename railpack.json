@@ -1,0 +1,6 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "deploy": {
+    "startCommand": "redbot-setup --no-prompt --instance-name mydiscordbot --backend json --data-path /var/lib/Red-DiscordBot/data; redbot --help; redbot mydiscordbot --no-prompt --token $DISCORD_TOKEN -p $DISCORD_PREFIX $ADDITIONAL_LAUNCH_ARGS"
+  }
+}
