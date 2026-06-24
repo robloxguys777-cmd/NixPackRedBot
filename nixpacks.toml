@@ -22,3 +22,6 @@ cmd = "python3 -m redbot mydiscordbot --no-prompt --token $DISCORD_TOKEN -p $DIS
 DISCORD_TOKEN = "${{DISCORD_TOKEN}}"
 DISCORD_PREFIX = "${{DISCORD_TOKEN}}"
 ADDITIONAL_LAUNCH_ARGS = ""
+
+[phases.setup]
+aptPkgs = ["git"]
